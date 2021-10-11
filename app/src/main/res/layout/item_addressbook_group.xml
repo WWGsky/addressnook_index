@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:tag="sticky"
+    android:background="#F3F3F3">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/addressBook_groupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6c6c6c"
+        android:textSize="13sp"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="10dp"/>
+
+</RelativeLayout>

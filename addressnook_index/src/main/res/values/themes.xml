@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="AddressBookIndex">
+        <attr name="defaultTxtColor" format="reference|color" />
+        <attr name="selectTxtColor" format="reference|color" />
+        <attr name="txtSelectBackColor" format="reference|color" />
+        <attr name="txtSize" format="dimension" />
+        <attr name="txtPaddingHorizontal" format="dimension" />
+        <attr name="txtPaddingVertical" format="dimension" />
+        <attr name="enableAnimation" format="boolean" />
+        <attr name="animationNum" format="integer" />
+        <attr name="animationType">
+            <enum name="dialog" value="0"/>
+            <enum name="bessel" value="1"/>
+        </attr>
+        <attr name="dialog_color" format="reference|color" />
+        <attr name="dialog_txtColor" format="reference|color" />
+        <attr name="dialog_txtSize" format="dimension" />
+        <attr name="dialog_size" format="dimension" />
+    </declare-styleable>
+</resources>
