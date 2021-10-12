@@ -505,7 +505,8 @@ public class AddressBookIndex extends View {
                     //如果当前文本不在动画内,直接使用默认X轴位置
                     map.put("文本X轴位置", 文本X轴位置);
                 } else {
-                    //计算当前位置的贝塞尔速率(getBesselXForY()方法中有一行注释掉的根据Y轴位置计算速率的笨方法,最合理的是根据六元三次方程去计算)
+                    //计算当前位置的贝塞尔速率
+                    // (getBesselXForY()方法中有一行注释掉的根据Y轴位置计算速率的笨方法,最合理的是根据六元三次方程去计算速率,希望有能力的大佬提isse反馈一下公式~)
                     float besselT = Math.abs((float) (文本Y轴位置 - touchY)) / (txtUsableHeight * animationNum) / 85 * 100;
                     //限定边界
                     if (besselT > 1) {
